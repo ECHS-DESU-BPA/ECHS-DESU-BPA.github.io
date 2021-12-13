@@ -1,10 +1,10 @@
 div#whole {
   margin:-7px;
 padding:10px;
-border-bottom: 7px solid rgb(254 254 211)
+border-bottom: 7px solid rgb(61 49 44);
 }
 body {
-  background-color:rgb(159 217 131);
+  background-color:rgb(117 127 73);
   font-family: "Garamond", serif;
   font-weight: 300;
   font-size:20px;
@@ -13,8 +13,12 @@ div#topbar {
 
 }
 header {
-  background-color: rgb(100 187 106);
+  background-color: rgb(167 187 172);
   padding:6px;
+  margin:-7px;
+  border-left: 4px solid rgb(219 242 225);
+  border-right: 4px solid rgb(219 242 225);
+  border-bottom: 4px solid rgb(219 242 225);
 }
 header::after {
   content: '';
@@ -22,7 +26,7 @@ header::after {
   clear: both;
 }
 img#placeholderlogo {
-height: 75px;
+height: 80px;
 width: 250px;
 margin:-6px;
 float:left;
@@ -34,7 +38,7 @@ nav#topbarnav {
 }
 header nav ul {
   margin:0;
-  padding:0;
+  padding:3px 300px 0 0;
   list-style: none;
 }
 header nav li {
@@ -58,10 +62,8 @@ nav#topbarnav a:hover {
 nav#topbarnav a::before {
   content: '';
   display:block;
-  background-color: black;
+  background-color:rgb(61 49 44);
   height:5px;
-  width:100%:
-
   top: 0;
   width:0%;
 
