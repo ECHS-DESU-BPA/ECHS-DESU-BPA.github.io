@@ -21,7 +21,6 @@ ul#links {
 float:right;
 width:90%;
 }
-
 ul#links li {
 list-style: none;
 display: inline-block;
@@ -36,9 +35,14 @@ margin: 0 -4px;
 padding: 0 5px 0 9px;
 display: block;
 }
-}
 ul#links li a:hover {
   color:navy;
   font-weight: bolder;
-
+}
+h1 {
+  font-size: 18px;
+  font-weight: 550;
+}
+.information {
+  margin-left:6px;
 }
