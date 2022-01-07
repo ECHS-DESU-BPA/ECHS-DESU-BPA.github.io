@@ -36,14 +36,6 @@ margin: 0 -4px;
 padding: 0 5px 0 9px;
 display: block;
 }
-#trolling:hover img#troll {
-  display: block;
-}
-h1 {
-  background-color: red;
-}
-img#troll {
-display:none;
 }
 ul#links li a:hover {
   color:navy;
