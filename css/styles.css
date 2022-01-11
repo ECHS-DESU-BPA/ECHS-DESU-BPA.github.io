@@ -21,6 +21,7 @@ div#bodytag {
   margin-left:15%;
   margin-right:15%;
   background-color: #4694fa;
+  line-height: 2; 
 }
 nav#navlinks {
   width:100%;
