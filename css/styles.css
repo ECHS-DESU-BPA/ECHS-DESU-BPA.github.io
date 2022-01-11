@@ -21,7 +21,7 @@ div#bodytag {
   margin-left:15%;
   margin-right:15%;
   background-color: #4694fa;
-  line-height: 2; 
+  line-height: 32px;
 }
 nav#navlinks {
   width:100%;
@@ -60,5 +60,6 @@ h1 {
   font-weight: 550;
 }
 .information {
-  margin-left:6px;
+padding: 12px;
+
 }
