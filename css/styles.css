@@ -63,6 +63,7 @@ h1 {
 padding: 12px;
 }
 .slider {
+  display: inline-block;
   margin: 0 15% 0 0;
   height: 500px;
   width: 100%;
