@@ -3,7 +3,7 @@
   margin: 0;
   font-size: 14px;
   font-family: monospace;
-  background-color: #0d55ba;
+  background-color: #25274D;
 }
 body {
 
@@ -16,8 +16,8 @@ div#topbar {
   margin-bottom: 0;
   padding:0;
 }
-div#bodytag, div#bodytag p, div#bodytag ul, div#bodytag li, div#bodytag br, ul#links li a, div#bodytag h1, #row1, #row2, #row3 {
-    background-color: #4694fa;
+div#bodytag, div#bodytag p, div#bodytag ul, div#bodytag li, div#bodytag br, ul#links li a, div#bodytag h1, #row1, #row2, #row3, nav#navlinks {
+    background-color: #4e8fbd;
 }
 div.information p,div.information h1 {
   padding-left: 10px;
@@ -36,7 +36,6 @@ div#bodytag {
 nav#navlinks {
   width:100%;
   height: 65px;
-  background-color:#4694fa;
 }
 img#placeholderlogo {
   float: left;
