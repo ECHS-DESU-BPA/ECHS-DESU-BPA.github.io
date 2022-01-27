@@ -16,7 +16,7 @@ div#topbar {
   margin-bottom: 0;
   padding:0;
 }
-div#bodytag, div#bodytag p, div#bodytag ul, div#bodytag li, div#bodytag br, ul#links li a, div#bodytag h1 {
+div#bodytag, div#bodytag p, div#bodytag ul, div#bodytag li, div#bodytag br, ul#links li a, div#bodytag h1, #row1, #row2, #row3 {
     background-color: #4694fa;
 }
 div.information p,div.information h1 {
