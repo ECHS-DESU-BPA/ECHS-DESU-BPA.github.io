@@ -2,7 +2,7 @@ const question = document.querySelector('#question');
 const choices = Array.document.querySelectorAll('.choice-text');
 const progresstext = document.querySelector('#progresstext');
 const scoreText = document.querySelector('#score');
-const ProgressBarFull= document.querySelector('#progressbarfull');
+const ProgressBarFull = document.querySelector('#progressbarfull');
 
 let currentQuestion = {};
 let acceptingAnswers = true;
