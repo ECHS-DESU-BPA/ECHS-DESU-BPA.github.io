@@ -4,11 +4,11 @@ const progresstext = document.querySelector('#progresstext');
 const question = document.querySelector('#score');
 const question = document.querySelector('#progressbarfull');
 
-let currentQuestion = {}
+let currentQuestion = {};
 let acceptingAnsers = true;
 let score = 0;
 let questionCounter = 0;
-let availableQuestion = []
+let availableQuestion = [];
 
 let questions = [
   {
@@ -115,27 +115,28 @@ let questions = [
   choice4: 'Cutting down a tree',
   answer: 3, 
   }
-]
+];
 
 const SCORE_POINTS = 100;
 const MAX_QUESTION = 15;
 
 startGame = () => { 
-  questionCounter = 0
-  score = 0
+  questionCounter = 0;
+  score = 0;
   availableQuestions = [...questions]
   getNewQuestions()
 }
 
 getNewQuestions = () => {
-  if(availableQuestions.length === 0 || questionsCounter > MAX_QUESTION{
-     localStorage.setItem('mostRecentScore', score)
+  if(availableQuestions.length === 0 || questionsCounter > MAX_QUESTION) {
+     localStorage.setItem('mostRecentScore', score);
     
     return window.location.assign('/end.html')
 }
+}
 
 questionCounter++
-progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
 progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%
 
 const questionIndex = Math.floor(Math.random() * availableQuestions.length[questionsIndex]
