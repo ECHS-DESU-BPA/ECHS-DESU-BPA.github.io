@@ -42,10 +42,10 @@
          transform: translateY(20px);
          transition: transform 0.25s;
          }
-         .image__overlay:hover {
+         .image__overlay:hover, .image__overlay:active {
          opacity: 1;
          }
-         .image__overlay:hover > * {
+         .image__overlay:hover, .image__overlay:active > * {
          transform: translateY(0);
          }
          .image__title {
@@ -74,6 +74,10 @@
          float:right;
          width: 33.3%;
          }
+         .hover {
+         -webkit-user-select: none;
+         -webkit-touch-callout: none;        
+          }
       </style>
    </head>
    <div id="topbar">
