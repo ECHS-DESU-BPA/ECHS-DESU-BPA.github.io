@@ -21,11 +21,11 @@ let questions = [
   },
     {
   question: 'What is a way to reduce your Carbon Footprint while at home?',
-  choice1: 'Unplugging your electornics when not in use'
-  choice2: 'Throwing away old food'
-  choice3: 'Going outside'
-  choice4: 'Making sure your fan is off when you leave the room'
-  answer: 1 
+  choice1: 'Unplugging your electornics when not in use',
+  choice2: 'Throwing away old food',
+  choice3: 'Going outside',
+  choice4: 'Making sure your fan is off when you leave the room',
+  answer: 1, 
   },
     {
   question: 'Which of these is a way of reducing your Carbon Footprint?',
@@ -36,7 +36,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -44,7 +44,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -52,7 +52,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -60,7 +60,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -68,7 +68,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -76,7 +76,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -84,7 +84,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -92,7 +92,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -100,7 +100,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -108,7 +108,7 @@ let questions = [
   answer: 3, 
   },
     {
-  question: 'hich of these is a way of reducing your Carbon Footprint?'
+  question: 'hich of these is a way of reducing your Carbon Footprint?',
   choice1: 'Using electronics daily',
   choice2: 'Turning up the A/C in the winter because it got hot in the house',
   choice3: 'Using energy efficent electronics',
@@ -133,6 +133,7 @@ getNewQuestions = () => {
     
     return window.location.assign('/end.html')
 }
+
 questionCounter++
 progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
 progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%
