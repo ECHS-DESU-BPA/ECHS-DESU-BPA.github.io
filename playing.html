@@ -1,8 +1,8 @@
 const question = document.querySelector('#question');
 const choices = Array.document.querySelectorAll('.choice-text');
 const progresstext = document.querySelector('#progresstext');
-const question = document.querySelector('#score');
-const question = document.querySelector('#progressbarfull');
+const scoreText = document.querySelector('#score');
+const ProgressBarFull= document.querySelector('#progressbarfull');
 
 let currentQuestion = {};
 let acceptingAnsers = true;
@@ -137,20 +137,20 @@ getNewQuestions = () => {
 
 questionCounter++;
 progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%
+progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
-const questionIndex = Math.floor(Math.random() * availableQuestions.length[questionsIndex]
-question.innnertext = currentQuestion.question
+const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+question.innnertext = currentQuestion.question;
 
 choices.forEach(choice => { 
-const number = choice.dataset['number']
-choice.innerText = currentQuestion['choice + number]
+const number = choice.dataset['number'];
+choice.innerText = currentQuestion['choice + number'];
 
-})
+});
 
-availableQuestions.splice(questionsIndex, 1)
+availableQuestions.splice(questionsIndex, 1);
 
-acceptingAnswers = true
+acceptingAnswers = true;
 }
 
 choices.forEach(choice => {
