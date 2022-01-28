@@ -1,182 +1,171 @@
 <html>
-  <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <meta charset="UTF-8">
-    <title>What Can Be Done?</title>
-    <style>
-      .image {
-    position: relative;
-    width: 400px;
-}
-
-.image__img {
-    display: block;
-    width: 100%;
-      max-length: 500px;
-      max-width: 500px;
-}
-
-.image__overlay {
-    position: absolute;
-    top: 400;
-    left: 150;
-    width: 33%;
-    height: 33%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.image__overlay--blur {
-    backdrop-filter: blur(5px);
-}
-
-.image__overlay--primary {
-    background: #009578;
-}
-
-.image__overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.image__overlay:hover {
-    opacity: 1;
-}
-
-.image__overlay:hover > * {
-    transform: translateY(0);
-}
-
-.image__title {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.image__description {
-    font-size: 10px;
-    margin-top: 0.25em;
-}
-li {
-  font-weight: bolder;
-  font-size: 20px;
-}
-#threecounties {
-}
-#row1 {
-  float:left;
-  width:33.33%;
-}
-#row2 {
-  float:left;
-  width: 33.33%
-}
-#row3 {
-  float:right;
-  width: 33.33%
-    
-}
-      
-
-    </style>
-  </head>
-  <div id="topbar">
-  <header>
-      <img id="placeholderlogo" src="images/logo.png">
-        <ul id="links">
-          <nav id="navlinks">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="what-can-be-done.html">What Can Be Done?</a></li>
-    <li><a href="interviews.html">Interviews</a></li>
-    <li><a href="game.html">Play</a></li>
-        </nav>
+   <head>
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <meta charset="UTF-8">
+      <title>What Can Be Done?</title>
+      <style>
+         .image {
+         position: relative;
+         width: 400px;
+         }
+         .image__img {
+         display: block;
+         width: 100%;
+         max-length: 500px;
+         max-width: 500px;
+         }
+         .image__overlay {
+         position: absolute;
+         top: 400;
+         left: 150;
+         width: 33%;
+         height: 33%;
+         background: rgba(0, 0, 0, 0.6);
+         color: #ffffff;
+         font-family: 'Quicksand', sans-serif;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         opacity: 0;
+         transition: opacity 0.25s;
+         }
+         .image__overlay--blur {
+         backdrop-filter: blur(5px);
+         }
+         .image__overlay--primary {
+         background: #009578;
+         }
+         .image__overlay > * {
+         transform: translateY(20px);
+         transition: transform 0.25s;
+         }
+         .image__overlay:hover {
+         opacity: 1;
+         }
+         .image__overlay:hover > * {
+         transform: translateY(0);
+         }
+         .image__title {
+         font-size: 2em;
+         font-weight: bold;
+         }
+         .image__description {
+         font-size: 10px;
+         margin-top: 0.25em;
+         }
+         li {
+         font-weight: bolder;
+         font-size: 20px;
+         }
+         #threecounties {
+         }
+         #row1 {
+         float:left;
+         width:33.33%;
+         }
+         #row2 {
+         float:left;
+         width: 33.33%
+         }
+         #row3 {
+         float:right;
+         width: 33.33%
+         }
+      </style>
+   </head>
+   <div id="topbar">
+      <header>
+         <img id="placeholderlogo" src="images/logo.png">
+         <ul id="links">
+            <nav id="navlinks">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="what-can-be-done.html">What Can Be Done?</a></li>
+               <li><a href="interviews.html">Interviews</a></li>
+               <li><a href="game.html">Play</a></li>
+            </nav>
+         </ul>
+      </header>
+   </div>
+   <div id="bodytag">
+   <body>
+      <h1 style="text-align:center">What can be done?</h1>
+      <p> Select your county to see some ways you and your community can help!</p>
+      <div id="threecounties">
+      <div id="row1">
+      <p> New Castle </p>
+      <span class="image">
+         <img class="image__img" src="images/New_Castle_BG.png" alt="New Castle">
+         <div class="image__overlay image__overlay--primary">
+            <div class="image__title">New Castle</div>
+            <ul class="image__description">
+               <li> The DART bus</li>
+               <br>
+               <li> The Delaware recyling center</li>
+               <br>
+               <li> DSWA Newark Recycling Center</li>
+               <br>
+            </ul>
+         </div>
+      </span>
+      </div id="row1">
+      <div id="row2">
+      <p>Kent</p>
+      <span class="image">
+         <img class="image__img" src="images/Kent_County_BG.png" alt="Kent">
+         <div class="image__overlay image__overlay--primary">
+            <div class="image__title">Kent</div>
+            <ul class="image__description">
+               <li> The DART bus</li>
+               <br>
+               <li> Milford Transfer Station</li>
+               <br>
+               <li> ecoATM</li>
+            </ul>
+         </div>
+      </span>
+      </div id="row2">
+      <div id="row3">
+      <p>Sussex</p>
+      <span class="image">
+         <img class="image__img" src="images/Sussex_BG.png" alt="Sussex">
+         <div class="image__overlay image__overlay--primary">
+            <div class="image__title">Sussex</div>
+            <ul class="image__description">
+               <li> The DART bus</li>
+               <br>
+               <li> Milford Transfer Station</li>
+            </ul>
+         </div>
+      </span>
+      </div id="row3">
+      </div id="threecounties">
+      <br>
+      <p>
+         Throughout Delaware there are many good places to help reduce your Carbon Footprint. The Delaware Recycling center is a great place to do so, since recycling reduces energy used which will also make it so that less fuels need to be burned in order to create and process some goods. This lowers the Carbon Footprint of not just the person recycling but it also lowers it for everyone in the state (although at a much smaller rate). On the topic of recycling there are some things that need to be recycled in specifc areas, for example most electronics need to go to specifc areas due to the materials used inside of them. A buisness mentioned was called ecoATM, which is one of these recycling centers as mentioned and they take phones and give you money for trading them in. The way they do this is by taking used phone components and selling them to clients that will reuse the parts. The DART bus is also another really good way of reducing your carbon footprint nearby, although it is a little more situational since you have to be near a bus stop to get picked up. Though it is a good way of saving gas and reducing your Carbon Footprint since if you are taking the bus (assuming you have a car) then you will not be putting your own emission into the atmosphere. 
+      </p>
+      <br>
+      <p>
+         There are many ways you can get involved! Whether that be alone or with others. Somethings you could do alone to start reducing your Carbon Footprint are...
+      </p>
+      <ul style="padding:0 25px;">
+         <li>Unplugging your devices when they are not in use</li>
+         <p>in the case of unplugging your devices is important because not only would this save money in your household but would also lower your energy usage. You also do not have to unplug every device that is in your household, just things that you can reach since most of the time things like tablets, computers, and other electronic devices will continue to use energy even if they aren't currently in use, which is known as a "phantom load". So unplugging these appliances will not only benefit you but will also lower your carbon footprint.</p>
+         <br>
+         <li>Using less temperature modifications (AC and Heat)</li>
+         <p>Using the AC/heat in your household is convienent but your temperature control uses a lot of electricity and the materials they use to cool your house deplete ozone in the enviornment. Note, there is no reason to completely turn them off, just turn them down to reduce your carbon emmision. Doing things like turning the AC down in the winter and turning the heat down in the summer will make a noticeable difference in your energy usage and will reduce your carbon emmisions by a good amount.</p>
+         <br>
+         <li>Carpool more with family</li>
+         <p>an easy way of reducing this astounding 29% (which most likely has grown tremendously in the last few years) is carpooling, and not only will it reduce the emissions/footprints of those involved (since you're using less vehicles). However, another way of reducing vehicle emissions is eletric cars which do not emit nearly as much gas as generic fossil fuel burning cars (although they are a bit expensive).</p>
+         <br>
+         <li>Planting a tree</li>
+         <p>planting a tree to help offset emissions, this not only will benefit you but will benefit everyone. Althought it is a massive endevour to care for a tree, you could get the help of a neighbor or as a community can plant a few trees.</p>
+         <br>
+         <li>Using energy efficent devices</li>
+         <p>Another thing you can do to reduce your carbon footprint in your house is using energy efficent appliances, which are usually marked with a blue energy star sticker, these appliances are as mentioned to use less energy therefore will contribute to lowering your carbon footprint/emission.</p>
+         <br>
       </ul>
-  </header>
-</div>
-<div id="bodytag">
-<body>
-<h1 style="text-align:center">What can be done?</h1>
-   <p> Select your county to see some ways you and your community can help!</p>
-  <div id="threecounties">
-  <div id="row1">
-  <p> New Castle </p>
-  <span class="image">
-    <img class="image__img" src="images/New_Castle_BG.png" alt="New Castle">
-    <div class="image__overlay image__overlay--primary">
-        <div class="image__title">New Castle</div>
-        <ul class="image__description">
-          <li> The DART bus</li>
-          <br>
-          <li> The Delaware recyling center</li>
-           <br>
-          <li> DSWA Newark Recycling Center</li>
-          <br>
-        </ul>
-    </div>
-</span>
-</div id="row1">
-  <div id="row2">
-<p>Kent</p>
-  <span class="image">
-    <img class="image__img" src="images/Kent_County_BG.png" alt="Kent">
-    <div class="image__overlay image__overlay--primary">
-        <div class="image__title">Kent</div>
-        <ul class="image__description">
-          <li> The DART bus</li>
-            <br>
-          <li> Milford Transfer Station</li>
-            <br>
-          <li> ecoATM</li>
-        </ul>
-    </div>
-</span>
-</div id="row2">
-  <div id="row3">
-<p>Sussex</p>
-  <span class="image">
-    <img class="image__img" src="images/Sussex_BG.png" alt="Sussex">
-    <div class="image__overlay image__overlay--primary">
-        <div class="image__title">Sussex</div>
-        <ul class="image__description">
-          <li> The DART bus</li>
-            <br>
-          <li> Milford Transfer Station</li>
-        </ul>
-    </div>
-</span>
-</div id="row3">
-</div id="threecounties">
-  <br>
-    <p>
-Throughout Delaware there are many good places to help reduce your Carbon Footprint. The Delaware Recycling center is a great place to do so, since recycling reduces energy used which will also make it so that less fuels need to be burned in order to create and process some goods. This lowers the Carbon Footprint of not just the person recycling but it also lowers it for everyone in the state (although at a much smaller rate). On the topic of recycling there are some things that need to be recycled in specifc areas, for example most electronics need to go to specifc areas due to the materials used inside of them. A buisness mentioned was called ecoATM, which is one of these recycling centers as mentioned and they take phones and give you money for trading them in. The way they do this is by taking used phone components and selling them to clients that will reuse the parts. The DART bus is also another really good way of reducing your carbon footprint nearby, although it is a little more situational since you have to be near a bus stop to get picked up. Though it is a good way of saving gas and reducing your Carbon Footprint since if you are taking the bus (assuming you have a car) then you will not be putting your own emission into the atmosphere. 
-  </p>
-  <br>
-  <p>
-  There are many ways you can get involved! Whether that be alone or with others. Somethings you could do alone to start reducing your Carbon Footprint are...
-  </p>
-    <ul style="padding:0 25px;">
-     <li>Unplugging your devices when they are not in use</li>
-     <p>in the case of unplugging your devices is important because not only would this save money in your household but would also lower your energy usage. You also do not have to unplug every device that is in your household, just things that you can reach since most of the time things like tablets, computers, and other electronic devices will continue to use energy even if they aren't currently in use, which is known as a "phantom load". So unplugging these appliances will not only benefit you but will also lower your carbon footprint.</p>
-     <br>
-     <li>Using less temperature modifications (AC and Heat)</li>
-     <p>Using the AC/heat in your household is convienent but your temperature control uses a lot of electricity and the materials they use to cool your house deplete ozone in the enviornment. Note, there is no reason to completely turn them off, just turn them down to reduce your carbon emmision. Doing things like turning the AC down in the winter and turning the heat down in the summer will make a noticeable difference in your energy usage and will reduce your carbon emmisions by a good amount.</p>
-     <br>
-     <li>Carpool more with family</li>
-     <p>an easy way of reducing this astounding 29% (which most likely has grown tremendously in the last few years) is carpooling, and not only will it reduce the emissions/footprints of those involved (since you're using less vehicles). However, another way of reducing vehicle emissions is eletric cars which do not emit nearly as much gas as generic fossil fuel burning cars (although they are a bit expensive).</p>
-     <br>
-     <li>Planting a tree</li>
-     <p>planting a tree to help offset emissions, this not only will benefit you but will benefit everyone. Althought it is a massive endevour to care for a tree, you could get the help of a neighbor or as a community can plant a few trees.</p>
-     <br>
-     <li>Using energy efficent devices</li>
-     <p>Another thing you can do to reduce your carbon footprint in your house is using energy efficent appliances, which are usually marked with a blue energy star sticker, these appliances are as mentioned to use less energy therefore will contribute to lowering your carbon footprint/emission.</p>
-     <br>
-  </ul>
-</body>
-</div id="bodytag">
+   </body>
+   </div id="bodytag">
 </html>
+COPY TO CLIPBOARD SELECT ALL
