@@ -78,35 +78,44 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Using energy efficent devices will lower your Carbon Footprint',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'True', correct: true },
+      { text: 'False', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is a way that you can reduce your Carbon Footprint?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Eating less food', correct: false },
+      { text: 'Cleaning clothes less often', correct: false },
+      { text: 'Unplugging household electronics when they are not in use', correct: true },
+      { text: 'Drinking more water', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What percent does vehicle emissions represent in our global Carbon Emission?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
+      { text: '29%', correct: true },
+      { text: '75%', correct: false },
+      { text: '39%', correct: false },
       { text: 'IDK', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'What is one way you can reduce your Carbon Footprint?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'By making sure to be aware of your energy usage and conserving recourses when possible.', correct: true },
+      { text: 'By making sure you do not just takle it yourself by getting together as a community and working together on setting up a service project.', correct: true }
+    ]
+  },
+  {
+    question: 'Why is reducing your Carbon Footprint important?',
+    answers: [
+      { text: 'To help the enviornment', correct: true },
+      { text: 'To save money', correct: false },
+      { text: 'It is not important', correct: false },
+      { text: 'IDK', correct: false }
     ]
   }
 ]
