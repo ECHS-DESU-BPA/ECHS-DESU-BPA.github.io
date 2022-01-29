@@ -5,11 +5,15 @@
   <link href="css/styles.css" rel="stylesheet">
   <script defer src="script.js"></script>
   <title>Quiz Game</title>
-  <style> 
-    
+  <style>
+
   *, *::before, *::after {
   box-sizing: border-box;
   font-family: Gotham Rounded;
+}
+
+div#gameholder {
+
 }
 
 :root {
@@ -41,6 +45,10 @@ body.wrong {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
+  position: absolute;
+  top: 25%;
+  left: 50%
+  transform: translate(-25%, -50%);
 }
 
 .btn-grid {
@@ -105,6 +113,7 @@ body.wrong {
 </div>
 <div id="bodytag">
 <body>
+          <div id="gameholder">
   <div class="container">
     <div id="question-container" class="hide">
       <div id="question">Question</div>
@@ -121,5 +130,6 @@ body.wrong {
     </div>
   </div>
 </div>
+          </div id="gameholder">
 </body>
 </html>
